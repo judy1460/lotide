@@ -1,0 +1,32 @@
+{
+  "name": "mypackage",
+  "version": "1.0.0",
+  "description": "the first package mina has in lighthouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "myna1460"
+  ],
+  "author": "Mina",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judy1460/lotide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/judy1460/lotide/issues"
+  },
+  "homepage": "https://github.com/judy1460/lotide#readme"
+}
