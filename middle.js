@@ -6,11 +6,13 @@
     if (arrayA.length === 1 || arrayA.length === 2){
      return result;
     }else if (arrayA.length % 2 === 0){
-  console.log((arrayA[mid -1]), arrayA[mid]);
+  result.push(arrayA[mid -1]);
+  result.push(arrayA[mid]);
     
     }else if ( arrayA.length % 2 !== 0){
-console.log(arrayA[mid]);
+result.push(arrayA[mid]);
   }
+  console.log(result);
   return result;
     };
 
