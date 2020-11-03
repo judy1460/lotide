@@ -4,13 +4,6 @@ const assertArraysEqual = function(array1, array2) {
   } else
     console.log(`assertion failed😏😏 :  ${array1}  !==  ${array2}`);
 };
-
-     const assertEqual = function(actual, expected) {
-      if (actual === expected) {
-        console.log(`assertion passed👍🏽🙂 :  ${actual} === ${expected}`);
-      } else
-        console.log(`assertion failed😏😏 :  ${actual}  !==  ${expected}`);
-    };
     
     const eqArrays = function ( arr1, arr2 ){
       let equal = true;
@@ -52,6 +45,7 @@ const assertArraysEqual = function(array1, array2) {
     }
    return result;
 };  
- assertArraysEqual(without([1, 2, 3], [1]),[3]);
+module.exports = without;
+ /*assertArraysEqual(without([1, 2, 3], [1]),[3]);
  assertArraysEqual(without(["1", "2", "3"], [1, 2, "3"]),[1, 2]); 
- assertArraysEqual(without([1, 2, 3], [1, 2]),[3]);
+ assertArraysEqual(without([1, 2, 3], [1, 2]),[3]);*/

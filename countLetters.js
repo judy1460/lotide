@@ -18,9 +18,9 @@ const countLetters = function(string) {
 
 return results
 };
-
-const str = countLetters("my name is mina");
+module.exports = countLetters;
+/*const str = countLetters("my name is mina");
 assertEqual(str["m"], 3);
 assertEqual(str["y"], 1);
 assertEqual(str["r"], 0);
-assertEqual(str["a"], 3);
+assertEqual(str["a"], 3);*/

@@ -23,7 +23,7 @@ const eqArrays = function(arr1, arr2) {
 
      };
 
-     const letterPositions = function(sentence) {
+     const letterPositions= function(sentence) {
       const results = {};
       let i = 0;
       for(let letter of sentence){
@@ -39,5 +39,6 @@ const eqArrays = function(arr1, arr2) {
       }
       return results;
     };
-    assertArraysEqual(letterPositions("hello").e , [1]);
-    assertArraysEqual(letterPositions("mina").a , [1]);
+    module.exports = letterPositions;
+    /*assertArraysEqual(letterPositions("hello").e , [1]);
+    assertArraysEqual(letterPositions("mina").a , [1]);*/

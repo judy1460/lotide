@@ -33,7 +33,7 @@
                 }
               }
               return true;
-            }
+            };
     
 
     const assertObjectsEqual = function(actual, expected) {
@@ -46,10 +46,11 @@
     console.log(`${failEmoji}${failEmoji}${failEmoji} Assertion Failed: ${inspect(actual)} !== ${inspect(expected)}`) 
   }
 };
+module.exports = assertObjectsEqual;
 
-const ab = { a: "1", b: "2" };
+/*const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
  assertObjectsEqual(ab, ba); // => true
 
  const abc = { a: "1", b: "2", c: "3" };
- assertObjectsEqual(ab, abc); // => false
+ assertObjectsEqual(ab, abc); // => false*/
